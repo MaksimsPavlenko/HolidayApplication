@@ -24,7 +24,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("Public Holiday API")
                 .description("Public Holiday API description: \n" +
-                        "a) isHolidayPublicForCountry: Is the given date a holiday in the given country \n" +
+                        "a) isPublicHolidayForCountry: Is the given date a holiday in the given country \n" +
                         "b) numberOfPublicHolidays: Total amount of holidays in the given year in the given country")
                 .version("1.0").build();
     }
