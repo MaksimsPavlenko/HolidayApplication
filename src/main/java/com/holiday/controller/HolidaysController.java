@@ -20,4 +20,7 @@ public class HolidaysController {
         return holidaysService.isPublicHolidayForCountry(date,code);
     }
 
+    public void setHolidaysService(HolidaysService holidaysService) {
+        this.holidaysService = holidaysService;
+    }
 }

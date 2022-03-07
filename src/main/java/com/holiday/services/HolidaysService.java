@@ -10,12 +10,12 @@ public class HolidaysService {
     @Autowired
     PublicHolidaysServiceImplementation si;
 
-    public String isPublicHolidayForCountry(String year, String code) {
-        return si.isHolidayForCountry(year, code);
+    public String isPublicHolidayForCountry(String date, String code) {
+        return si.isPublicHolidayForCountry(date, code);
     }
 
     public int getNumberOfPublicHolidays(String date, String code) {
-        return si.numberOfHolidays(date,code);
+        return si.numberOfPublicHolidays(date,code);
     }
 
     public void setSi(PublicHolidaysServiceImplementation si) {
