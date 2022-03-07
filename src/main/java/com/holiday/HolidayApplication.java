@@ -10,10 +10,4 @@ public class HolidayApplication {
         SpringApplication.run(HolidayApplication.class, args);
     }
 
-//        String year = "2017";
-//        String code = "AT";
-//        String date = "01112017";
-////        String date = "2017-11-01";
-////        2017-01-01
-
 }

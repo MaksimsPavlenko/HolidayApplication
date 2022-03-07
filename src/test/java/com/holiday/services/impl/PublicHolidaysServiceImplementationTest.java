@@ -1,7 +1,6 @@
 package com.holiday.services.impl;
 
 import com.holiday.network.DataReader;
-import com.holiday.services.HolidaysService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
